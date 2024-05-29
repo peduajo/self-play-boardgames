@@ -37,3 +37,11 @@ Run exploiter agent training (use other terminal while main is training):
 ```bash
 python train.py --exploiter
 ```
+
+## Conclusión
+
+In conclusion, I will say that I see several disadvantages of this approach for any board game:
+- **Machines**: being a rather slow approach, you need many machines or gpu cores to run in parallel. PPO being an on-policy approach, it is quite data inefficient and needs this.
+- **Board game programming**: It is a task that can be simple for games like Connect4, but it gets quite complicated for more complex games like board games where there are cards that have passive effects. Also, if the game is new, finding bugs in it can be challenging.
+
+I think it is more viable to approach each board game independently, either with tree search, as in AlphaZero, or if it includes randomness using some variant like Smooth UCT in Poker: https://www.davidsilver.uk/wp-content/uploads/2020/03/smooth_uct.pdf.
