@@ -38,7 +38,7 @@ Run exploiter agent training (use other terminal while main is training):
 python train.py --exploiter
 ```
 
-## Conclusión
+## Conclusion
 
 In conclusion, I will say that I see several disadvantages of this approach for any board game:
 - **Machines**: being a rather slow approach, you need many machines or gpu cores to run in parallel. PPO being an on-policy approach, it is quite data inefficient and needs this.
