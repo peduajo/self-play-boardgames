@@ -1,0 +1,11 @@
+**/__pycache__/
+*.py[cod]
+
+/data/*
+!/data/.gitkeep
+/runs/*
+!/runs/.gitkeep
+/environments/connect4/exploiter_models/*
+!/environments/connect4/exploiter_models/.gitkeep
+/environments/connect4/models/*
+!/environments/connect4/models/.gitkeep
